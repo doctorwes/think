@@ -1,0 +1,12 @@
+{
+  "name": "think-like-WHH",
+  "description": "Think, analyze, invest, and write like WHH (Bill Hurt) — Capital Group portfolio manager, 1972-2019. Applies his multi-factor framework, conceptual vocabulary, historical-analogical method, and distinctive prose voice to any investment, economic, or strategic question.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Wesley Phoa",
+    "email": "doctorwes@users.noreply.github.com"
+  },
+  "homepage": "https://github.com/doctorwes/think",
+  "repository": "https://github.com/doctorwes/think",
+  "license": "MIT"
+}
