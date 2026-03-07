@@ -1,6 +1,6 @@
 # think
 
-A collection of Claude Code skills that reproduce the analytical frameworks, conceptual vocabularies, investment methods, and prose voices of legendary investors.
+A collection of Claude Code skills that reproduce the analytical frameworks, conceptual vocabularies, investment methods, and prose voices of legendary investors and thinkers.
 
 ## Skills
 
@@ -28,6 +28,30 @@ Think, analyze, invest, and write like George Soros — hedge fund manager, phil
 
 Built from *The Alchemy of Finance* (1987, with 1994 preface).
 
+### /think-like-WKP
+
+Think, analyze, and write like Wesley Phoa (WKP) — polymath, portfolio manager, philosopher of markets. Applies his method of structural homology, conceptual decomposition, phenomenological analysis of markets, toy-model epistemology, and cross-disciplinary bridge-building to any financial, philosophical, technological, or policy question.
+
+- **Structural homology** — translating between domains (mathematics, philosophy, finance, technology) not by analogy but by preserving formal relationships that do analytical work
+- **Conceptual decomposition** — breaking phenomena into components with distinct properties, then analyzing how the components interact
+- **Toy-model epistemology** — building the simplest possible model that captures the essential structure, then reasoning about what the model reveals and what it hides
+- **Night Watch scenario analysis** — systematic exploration of tail risks and structural breaks through scenario construction
+- **The WKP voice** — precise, polymathic, moving fluidly between registers (mathematical, philosophical, financial, literary), with the confidence to hold multiple frameworks simultaneously
+
+Built from WKP's investment memos, philosophical writings, and analytical frameworks.
+
+### /think-like-livermore
+
+Think, analyze, trade, and write like Jesse Livermore — the greatest speculator of the early twentieth century. Applies his framework of tape reading, line of least resistance, sitting tight, probing and pyramiding, and hard-won self-knowledge to any market, trading, or speculative question.
+
+- **The line of least resistance** — determining which direction prices will move most easily, based on general conditions and the behavior of the leaders
+- **Sitting tight** — the hardest thing in speculation: holding a winning position through reactions without being shaken out
+- **Probing and pyramiding** — testing with a small position first, then adding only as the market confirms your reading
+- **Pivot points** — critical price levels where the market's behavior confirms or denies the trend
+- **The Livermore voice** — conversational, streetwise, unsentimental, anecdotal; every principle grounded in experience and paid for in money
+
+Built from *Reminiscences of a Stock Operator* (Edwin LeFevre, 1923).
+
 ## Installation
 
 ```bash
@@ -38,6 +62,8 @@ claude --plugin-dir /path/to/think
 /plugin marketplace add https://github.com/doctorwes/think
 /plugin install think-like-WHH@think
 /plugin install think-like-soros@think
+/plugin install think-like-WKP@think
+/plugin install think-like-livermore@think
 ```
 
 ## Usage
@@ -48,6 +74,12 @@ claude --plugin-dir /path/to/think
 
 /think-like-soros the private credit market as a reflexive boom-bust sequence
 /think-like-soros formulate a hypothesis about the dollar and test it
+
+/think-like-WKP decompose the AI infrastructure stack into investable layers
+/think-like-WKP structural homology between the 2008 credit crisis and the current private credit boom
+
+/think-like-livermore read the current action of the semiconductor leaders
+/think-like-livermore the psychology of holding through a correction
 ```
 
 ## Registers
@@ -73,6 +105,28 @@ claude --plugin-dir /path/to/think
 | **Historical Process** | Analyzing developments as reflexive historical processes |
 | **Policy Prescription** | Systemic reform proposals that acknowledge their own imperfection |
 | **Self-Evaluation** | Ruthless assessment of where predictions went wrong |
+
+### WKP
+
+| Register | Description |
+|----------|-------------|
+| **Investment Analysis** | Decomposition of a market, asset class, or phenomenon into components with distinct properties |
+| **Philosophical Analysis** | Structural analysis of concepts, frameworks, or intellectual problems |
+| **Cross-Domain Bridge** | Connecting two or more fields through structural homology |
+| **Scenario Construction** | Night Watch-style systematic exploration of tail risks and structural breaks |
+| **Technology Assessment** | Analysis of a technology through multiple lenses: technical, economic, philosophical |
+| **Methodological Reflection** | Examining how we know what we know, the tools we use, and their limits |
+
+### Livermore
+
+| Register | Description |
+|----------|-------------|
+| **Market Reading** | Analyzing current market action: what the tape says, where the line of least resistance lies |
+| **Trading Lesson** | Teaching principles of speculation through concrete experience |
+| **War Story** | A specific episode told for the lesson it contains |
+| **Self-Examination** | Ruthless analysis of your own errors and the psychology that produced them |
+| **Operator's Assessment** | Sizing up a situation like a professional speculator |
+| **Counsel** | Advice to another speculator, delivered with bluntness and generosity |
 
 ## License
 
