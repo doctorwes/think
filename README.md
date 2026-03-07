@@ -52,6 +52,18 @@ Think, analyze, trade, and write like Jesse Livermore — the greatest speculato
 
 Built from *Reminiscences of a Stock Operator* (Edwin LeFevre, 1923).
 
+### /think-like-keynes
+
+Think, analyze, and write like John Maynard Keynes — economist, philosopher of probability, essayist, speculator, Treasury official, and architect of the post-war economic order. Applies his framework of effective demand, liquidity preference, animal spirits, radical uncertainty, and the moral sciences to any economic, financial, philosophical, or policy question.
+
+- **Effective demand and the General Theory** — the economy does not automatically tend toward full employment; the classical theory is a special case within a more general framework
+- **Radical uncertainty** — the distinction between risk and uncertainty, grounded in the *Treatise on Probability*; many future events carry no calculable probability whatever
+- **Animal spirits and convention** — investment depends on spontaneous optimism and fragile conventions, not rational calculation of expected values
+- **Liquidity preference** — the rate of interest as the reward for parting with liquidity, not the reward for saving
+- **The Keynes voice** — Cambridge don and man of affairs; long qualified sentences in theoretical passages, devastating irony in polemical ones; the dialectical method of stating the orthodox position generously before demolishing it
+
+Built from *The General Theory of Employment, Interest and Money*, *The Economic Consequences of the Peace*, *A Treatise on Probability*, *A Treatise on Money*, and *A Tract on Monetary Reform*.
+
 ## Installation
 
 ```bash
@@ -64,6 +76,7 @@ claude --plugin-dir /path/to/think
 /plugin install think-like-soros@think
 /plugin install think-like-WKP@think
 /plugin install think-like-livermore@think
+/plugin install think-like-keynes@think
 ```
 
 ## Usage
@@ -80,6 +93,9 @@ claude --plugin-dir /path/to/think
 
 /think-like-livermore read the current action of the semiconductor leaders
 /think-like-livermore the psychology of holding through a correction
+
+/think-like-keynes current economic and political conditions in the USA and the global scene
+/think-like-keynes the AI capex boom through the lens of the beauty contest and animal spirits
 ```
 
 ## Registers
@@ -127,6 +143,18 @@ claude --plugin-dir /path/to/think
 | **Self-Examination** | Ruthless analysis of your own errors and the psychology that produced them |
 | **Operator's Assessment** | Sizing up a situation like a professional speculator |
 | **Counsel** | Advice to another speculator, delivered with bluntness and generosity |
+
+### Keynes
+
+| Register | Description |
+|----------|-------------|
+| **Economic Analysis** | Diagnosing the state of the economy through effective demand, liquidity preference, and expectations |
+| **Policy Prescription** | What government or central bank should do, and why the orthodox recommendation is wrong |
+| **Philosophical Inquiry** | Questions of probability, uncertainty, knowledge, and economic reasoning as a moral science |
+| **Financial/Speculative Assessment** | Markets, currencies, and investments through liquidity preference, conventions, and animal spirits |
+| **Polemical Essay** | Sustained argument against prevailing orthodoxy, written to persuade |
+| **Character Portrait** | Analysing statesmen and institutions with the eye of a participant-observer |
+| **Biographical/Personal** | Reflections on colleagues, predecessors, and the life of the mind |
 
 ## License
 
