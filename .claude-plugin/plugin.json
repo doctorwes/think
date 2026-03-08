@@ -1,7 +1,7 @@
 {
   "name": "think",
-  "description": "A collection of Claude Code skills that reproduce the analytical frameworks, conceptual vocabularies, investment methods, and prose voices of legendary investors and thinkers. Includes /think-like-WHH, /think-like-soros, /think-like-WKP, /think-like-livermore, and /think-like-keynes.",
-  "version": "1.1.0",
+  "description": "A collection of Claude Code skills that reproduce the analytical frameworks, conceptual vocabularies, investment methods, and prose voices of legendary investors and thinkers. Includes /think-like-WHH, /think-like-soros, /think-like-WKP, /think-like-livermore, /think-like-keynes, and /think-like-sraffa.",
+  "version": "1.2.0",
   "author": {
     "name": "Wesley Phoa",
     "email": "doctorwes@users.noreply.github.com"
